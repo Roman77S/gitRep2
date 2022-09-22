@@ -1,0 +1,49 @@
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  font-family: sans-serif;
+}
+
+.O {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  max-width: 500px;
+ border: 10px solid #000;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 100px auto;
+
+}
+.C {
+text-align: center;
+width: 150px;
+height: 150px;
+position: relative;
+font-size: 160px;
+line-height: 150px;
+}
+
+.R {position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  line-height: 72px;
+
+}
